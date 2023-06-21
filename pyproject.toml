@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "botforwarding"
+version = "0.1.0"
+description = ""
+authors = ["user <bav-574@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+djangorestframework = "^3.14.0"
+python-dotenv = "^1.0.0"
+pillow = "^9.5.0"
+asgiref = "^3.6.0"
+pyrogram = "^2.0.104"
+tgcrypto = "^1.2.5"
+psycopg2-binary = "^2.9.6"
+loguru = "^0.7.0"
+ruff = "^0.0.263"
+requests = "^2.30.0"
+psycopg2 = "^2.9.6"
+django-extensions = "^3.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
